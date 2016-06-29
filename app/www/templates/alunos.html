@@ -1,0 +1,18 @@
+<ion-view title="Alunos" id="page2" style="background-color:#5AC4DD;" class=" ">
+    <ion-content padding="true" class="has-header">
+        <div id="alunos-button-bar3" class=" button-bar "></div>
+        <div id="alunos-button-bar1" class=" button-bar "></div>
+        <div id="alunos-button-bar2" class=" button-bar "></div>
+        <div class="">
+            <img src="img/rgaWUanREaB3fqgNXnbA_barra-top-promocao-jovem-programador_r1_c1.png" width="100%" height="auto" style="display: block; margin-left: auto; margin-right: auto;">
+        </div>
+        <div class="spacer" style="width: 300px; height: 20px;"></div>
+        <h3 id="alunos-heading6" style="color:#665F5F;text-align:center;" class=" ">Selecione seu Período</h3>
+        <div class="spacer" style="width: 300px; height: 10px;"></div>
+        <p ng-repeat="item in lista">
+          <ion-radio ng-click="exibir(item.id)">
+              {{ item.nome }}
+          </ion-radio>   
+        </p>
+    </ion-content>
+</ion-view>

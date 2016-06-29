@@ -1,0 +1,10 @@
+<ion-view title="Professores" id="page4" class=" ">
+    <ion-content padding="true" class="has-header">
+        <div class="">
+            <img src="img/DdAHeMUeQumtGTttv0rO_861778628.png" width="50%" height="auto" style="display: block; margin-left: auto; margin-right: auto;">
+        </div>
+        <h3 id="professores-heading10" style="color:#555353;text-align:center;" class=" ">Selecione seu Período</h3>
+        <div class="spacer" style="width: 300px; height: 25px;"></div>
+        <a  ng-repeat="item in lista" ng-click="exibir(item.id)" id="professores-button24" class=" button button-positive  button-block ">{{item.nome}}</a>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,21 @@
+$positive: #4A555C;
+$calm: #778289;
+$balanced: #A32520;
+$energized: #941611;
+$assertive: #670000;
+$royal: #942D2D;
+$light: #E5E7E9;
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+@import "../www/lib/ionic/scss";
+body.platform-android {
+	font-family: Montserrat, sans-serif;
+}
+
+.ionic-body.platform-android {
+	font-family: Montserrat, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6,.tab-item,input,button,select,textarea {
+	font-family: inherit;
+}
+
